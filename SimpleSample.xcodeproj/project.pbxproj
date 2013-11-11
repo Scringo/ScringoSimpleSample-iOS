@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A93DF48E181D39E7006F15CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93DF48D181D39E7006F15CA /* Foundation.framework */; };
 		A93DF490181D39E7006F15CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93DF48F181D39E7006F15CA /* CoreGraphics.framework */; };
 		A93DF492181D39E7006F15CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93DF491181D39E7006F15CA /* UIKit.framework */; };
 		A93DF498181D39E7006F15CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A93DF496181D39E7006F15CA /* InfoPlist.strings */; };
@@ -15,21 +14,8 @@
 		A93DF49E181D39E7006F15CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A93DF49D181D39E7006F15CA /* AppDelegate.m */; };
 		A93DF4A0181D39E7006F15CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93DF49F181D39E7006F15CA /* Images.xcassets */; };
 		A93DF4BD181D3A26006F15CA /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93DF4BC181D3A26006F15CA /* FacebookSDK.framework */; };
-		A93DF67E181D3A6C006F15CA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93DF67D181D3A6C006F15CA /* AudioToolbox.framework */; };
-		A93DF680181D3A83006F15CA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93DF67F181D3A83006F15CA /* Security.framework */; };
-		A93DF682181D3A8A006F15CA /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93DF681181D3A8A006F15CA /* Social.framework */; };
-		A93DF684181D3AAD006F15CA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93DF683181D3AAD006F15CA /* MobileCoreServices.framework */; };
-		A93DF686181D3AB3006F15CA /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93DF685181D3AB3006F15CA /* AdSupport.framework */; };
 		A93DF688181D3AB8006F15CA /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93DF687181D3AB8006F15CA /* CoreText.framework */; };
-		A93DF68A181D3ABE006F15CA /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93DF689181D3ABE006F15CA /* AddressBook.framework */; };
-		A93DF68C181D3AC2006F15CA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93DF68B181D3AC2006F15CA /* QuartzCore.framework */; };
-		A93DF68E181D3AC8006F15CA /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93DF68D181D3AC8006F15CA /* Accounts.framework */; };
-		A93DF690181D3ACD006F15CA /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93DF68F181D3ACD006F15CA /* Twitter.framework */; };
-		A93DF692181D3AD5006F15CA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93DF691181D3AD5006F15CA /* SystemConfiguration.framework */; };
-		A93DF694181D3ADA006F15CA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93DF693181D3ADA006F15CA /* CoreLocation.framework */; };
 		A93DF696181D3AE2006F15CA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93DF695181D3AE2006F15CA /* MapKit.framework */; };
-		A93DF698181D3AEA006F15CA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93DF697181D3AEA006F15CA /* MessageUI.framework */; };
-		A93DF69A181D3B01006F15CA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93DF699181D3B01006F15CA /* StoreKit.framework */; };
 		A93DF69C181D3B9C006F15CA /* mainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A93DF69B181D3B9C006F15CA /* mainView.xib */; };
 		A93DF69F181D3BF3006F15CA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93DF69E181D3BF3006F15CA /* MainViewController.m */; };
 		A9F74CF8182003EA001E37B8 /* correctSound.aif in Resources */ = {isa = PBXBuildFile; fileRef = A9F74C15182003E9001E37B8 /* correctSound.aif */; };
@@ -516,26 +502,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A93DF69A181D3B01006F15CA /* StoreKit.framework in Frameworks */,
-				A93DF698181D3AEA006F15CA /* MessageUI.framework in Frameworks */,
 				A93DF696181D3AE2006F15CA /* MapKit.framework in Frameworks */,
-				A93DF694181D3ADA006F15CA /* CoreLocation.framework in Frameworks */,
-				A93DF692181D3AD5006F15CA /* SystemConfiguration.framework in Frameworks */,
-				A93DF690181D3ACD006F15CA /* Twitter.framework in Frameworks */,
 				A9F74DD1182003EA001E37B8 /* Scringo.framework in Frameworks */,
-				A93DF68E181D3AC8006F15CA /* Accounts.framework in Frameworks */,
-				A93DF68C181D3AC2006F15CA /* QuartzCore.framework in Frameworks */,
-				A93DF68A181D3ABE006F15CA /* AddressBook.framework in Frameworks */,
 				A93DF688181D3AB8006F15CA /* CoreText.framework in Frameworks */,
-				A93DF686181D3AB3006F15CA /* AdSupport.framework in Frameworks */,
-				A93DF684181D3AAD006F15CA /* MobileCoreServices.framework in Frameworks */,
-				A93DF682181D3A8A006F15CA /* Social.framework in Frameworks */,
-				A93DF680181D3A83006F15CA /* Security.framework in Frameworks */,
-				A93DF67E181D3A6C006F15CA /* AudioToolbox.framework in Frameworks */,
 				A93DF490181D39E7006F15CA /* CoreGraphics.framework in Frameworks */,
 				A93DF4BD181D3A26006F15CA /* FacebookSDK.framework in Frameworks */,
 				A93DF492181D39E7006F15CA /* UIKit.framework in Frameworks */,
-				A93DF48E181D39E7006F15CA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
